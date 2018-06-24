@@ -44,7 +44,7 @@ namespace Cards.Classes
         {
             Random rand = new Random();
             int shuffles = rand.Next(1, 10);
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < shuffles; i++)
             {
                 Shuffle(this);
             }
